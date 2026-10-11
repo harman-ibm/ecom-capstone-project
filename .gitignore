@@ -1,0 +1,64 @@
+﻿# ==========================================
+# Root .gitignore for Capstone Project
+# ==========================================
+
+# IDE and Editors
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Tooling and Caches
+.bob/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!*.example
+
+# Backend (Spring Boot / Maven / Java)
+**/target/
+target/
+*.class
+*.db
+*.h2.db
+
+# Frontend (React / Node / npm)
+**/node_modules/
+node_modules/
+**/build/
+build/
+**/dist/
+dist/
+**/coverage/
+coverage/
+.pnp
+.pnp.js
